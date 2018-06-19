@@ -2,7 +2,7 @@
 <section class="section">
 
     <article class="message"> 
-       <div class="message-header">팀 & 개인 작업물 공간</div> 
+       <div class="message-header">팀 / 개인 작업물 공간</div> 
        <div class="message-body">캐릭 아트 디자인 / 대학 팀 프로젝트 / 웹프로그래밍 디자인</div> 
      </article> 
 
@@ -44,7 +44,7 @@
             <img src="~assets/photo.jpg">
           </figure>
         <p class="title">EYE-TOUCH Web Design</p>
-        <p class="subtitle">Tool: HTML5&CSS3 From ATOM Edit</p>  
+        <p class="subtitle">Tool: HTML5/CSS3 From ATOM Edit</p>  
         <div class="content">
             <figure class="image is-4by3">
             <img src="~assets/webD.png">
