@@ -52,9 +52,7 @@ export default {
       switch (id) {
         case "goPage":
           window.open(
-            "https://www.grafolio.com/searchList.grfl?query=%EC%8A%88%EB%8B%88%EB%B0%94%EB%A0%8C#middleTab",
-            "",
-            "max-width=100%, max-height=100%, toolbar=no, menubar=no, scrollbars=no, resizable=yes"
+            "https://www.grafolio.com/searchList.grfl?query=%EC%8A%88%EB%8B%88%EB%B0%94%EB%A0%8C#middleTab","max-width=100%, max-height=100%, toolbar=no, menubar=no, scrollbars=no, resizable=yes"
           );
           break;
       }
