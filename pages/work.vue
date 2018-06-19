@@ -41,7 +41,7 @@
         <p class="title">TEAM : PASSENGER</p>
         <p class="subtitle">Start Our Project in 2017~2018</p>
         <figure class="image is-4by3">
-            <img src="~assets/profile_01.jpg">
+            <img src="~assets/photo.jpg">
           </figure>
         <p class="title">EYE-TOUCH Web Design</p>
         <p class="subtitle">Tool: HTML5/CSS3 From ATOM Edit</p>  
