@@ -79,9 +79,7 @@ export default {
       switch (id) {
         case "goPage":
           window.open(
-            "https://www.youtube.com/embed/5bTD0JfJz9w",
-            "",
-            "max-width=100%, max-height=100%, toolbar=no, menubar=no, scrollbars=no, resizable=yes"
+            "https://www.youtube.com/embed/5bTD0JfJz9w","max-width=100%, max-height=100%, toolbar=no, menubar=no, scrollbars=no, resizable=yes"
           );
           break;
       }
