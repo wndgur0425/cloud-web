@@ -1,6 +1,6 @@
 <template> 
    <article class="section"> 
-     <article class="hero is-dark pic-02"> 
+     <article class="hero is-dark"> 
        <div class="hero-body"> 
          <div class="container"> 
            <h1><b>SCHEE'S</b> LAB.</h1>
