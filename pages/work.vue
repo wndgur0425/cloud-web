@@ -11,25 +11,35 @@
     <div class="tile">
       <div class="tile is-parent is-vertical">
         <article class="tile is-child notification is-dark">
-          <p class="title">진행작업물</p>
-          <p class="subtitle">Not yet</p>
-        </article>
-        <article class="tile is-child notification is-dark">
-          <p class="title">...tiles</p>
-          <p class="subtitle">Bottom tile</p>
+          <p class="title">Web Design</p>
+          <p class="subtitle">Concept.Dog / Tool: Eclipse Neon</p>
+          <figure class="image is-4by3">
+            <img src="~assets/1.png">
+          </figure>
+          <br>
+          <p class="title">Progress work</p>
+          <p class="subtitle">Figure in 2018 / Tool: SAI</p>
+          <figure class="image is-4by3">
+            <img src="~assets/pic.png">
+          </figure>
         </article>
       </div>
       <div class="tile is-parent">
         <article class="tile is-child notification is-dark">
           <p class="title">Art Design Concept</p>
-          <p class="subtitle">Vagabond in Desert in 2017.05</p>
+          <p class="subtitle">Vagabond in Desert in 2017.05 / Tool: Adobe Illustrator‎ CC</p>
           <figure class="image is-4by3">
             <img src="~assets/profile_01.jpg">
           </figure>
           <br>
-          <p class="subtitle">After it rains in 2017.12</p>
+          <p class="subtitle">After it rains in 2017.12 / Tool: Adobe Illustrator‎ CC</p>
           <figure class="image is-4by3">
             <img src="~assets/profile_06.jpg">
+          </figure>
+          <br>
+          <p class="subtitle">Artwork in 2016.10 / Hand Work</p>
+          <figure class="image is-4by3">
+            <img src="~assets/artwork.jpg">
           </figure>
         </article>
       </div>
@@ -40,6 +50,7 @@
       <div class="content">
         <p class="title">TEAM : PASSENGER</p>
         <p class="subtitle">Start Our Project in 2017~2018</p>
+        <p class="title">Intro Video <a class="button is-danger"  @click="video('goPage')"> Let's Play!</a></p>
         <figure class="image is-4by3">
             <img src="~assets/photo.jpg">
           </figure>
@@ -60,3 +71,21 @@
              
 </section>
 </template>
+
+<script>
+export default {
+  methods: {
+    video: function(id) {
+      switch (id) {
+        case "goPage":
+          window.open(
+            "https://www.youtube.com/embed/5bTD0JfJz9w",
+            "",
+            "max-width=100%, max-height=100%, toolbar=no, menubar=no, scrollbars=no, resizable=yes"
+          );
+          break;
+      }
+    }
+  }
+};
+</script>

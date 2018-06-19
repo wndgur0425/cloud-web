@@ -9,9 +9,5 @@
        </div> 
      </article> 
      <br> 
-     <article class="message"> 
-       <div class="message-header">취미 포스팅</div> 
-       <div class="message-body">영화 / 음악 / 디자인 포스팅 공간입니다.</div> 
-     </article>  
    </article>
  </template> 
