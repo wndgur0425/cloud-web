@@ -13,6 +13,7 @@
           <p3>언어 : Java, JSP, HTML5/CSS3</p3> 
           <h3>Email: rodemtree1009@naver.com</h3>
           <br>         
+          <p class="title">Introduce my blog : grafolio <a class="button is-danger"  @click="blog('goPage')"> Link start</a></p>
           <figure class="image is-4by3">
             <img src="~assets/myface.jpeg">
           </figure>
@@ -30,12 +31,13 @@
       <div class="content">
         <h1 class="title">No pain, No gain!!</h1>
         <h4 class="title">배움은 늘 끝이 없으니 매사에 최선을 다하자!</h4>
-        
-        <div class="content">
-          
-        </div>
-        <p class="title">Introduce my blog : grafolio <a class="button is-danger"  @click="blog('goPage')"> Link start</a></p>
-
+        <hr>
+        <h1 class="title">My Ability : I have this talent!</h1>
+        <p class="title">Java<progress class="progress is-medium" value="50" max="100">50%</progress></p>
+        <p class="title">JSP<progress class="progress is-medium" value="70" max="100">70%</progress></p>
+        <p class="title">HTML<progress class="progress is-medium" value="80" max="100">80%</progress></p>
+        <p class="title">CSS<progress class="progress is-medium" value="80" max="100">80%</progress></p>
+        <p class="title">Design Sense<progress class="progress is-medium is-danger" value="90" max="100">90%</progress></p>
       </div>
     </article>
   </div>
