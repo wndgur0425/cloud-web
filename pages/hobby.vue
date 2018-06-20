@@ -2,6 +2,11 @@
 
 <section class="section">
 
+    <article class="message"> 
+       <div class="message-header">취미공간 /  잡동사니</div> 
+       <div class="message-body">음악 디자인 그림 영화 등의 정보를 담은 공간입니다.</div> 
+     </article> 
+
     <div class="card">
   <div class="card-content">
     <p class="title">Walk Off The Earth</p>

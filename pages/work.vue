@@ -10,20 +10,30 @@
   <div class="tile is-vertical is-8">
     <div class="tile">
       <div class="tile is-parent is-vertical">
+
+
         <article class="tile is-child notification is-dark">
           <p class="title">Web Design</p>
           <p class="subtitle">Concept.Dog / Tool: Eclipse Neon</p>
           <figure class="image is-4by3">
             <img src="~assets/1.png">
           </figure>
-          <br>
+        </article>
+        <article class="tile is-child notification is-dark">
           <p class="title">Progress work</p>
           <p class="subtitle">Figure in 2018 / Tool: SAI</p>
           <figure class="image is-4by3">
             <img src="~assets/pic.png">
           </figure>
         </article>
+
+        <article class="tile is-child notification">
+          <p class="title">그림 수요량</p>
+                <div id="chartArea"></div>
+        </article>
+
       </div>
+
       <div class="tile is-parent">
         <article class="tile is-child notification is-dark">
           <p class="title">Art Design Concept</p>
@@ -45,6 +55,7 @@
       </div>
     </div>
   </div>
+
   <div class="tile is-parent">
     <article class="tile is-child notification">
       <div class="content">
@@ -67,6 +78,7 @@
       </div>
     </article>
   </div>
+
 </div>
              
 </section>
@@ -86,4 +98,13 @@ export default {
     }
   }
 };
+</script>
+
+<script>
+import Chart from '~/plugins/Chart';
+    export default {
+        mounted() {
+            if (process.client) { Chart('chartArea'); }
+        }
+    };
 </script>
