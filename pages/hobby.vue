@@ -52,6 +52,32 @@
     </p>
   </footer>
 </div>
+<br>
+
+<div class="card">
+  <div class="card-content">
+    <p class="title">Movie Monster!!</p>
+    <br>
+    <p class="subtitle">ADBC TV의 영화채널 / 영화, 애니메이션에 대한 다양한 시선들을 공감하려는 유튜브 채널입니다.</p>
+    <p>리뷰,리액션,프리뷰,후기 등 다양한 컨셉을 토크,예능,정보쇼 등으로 풀어내려합니다!</p>
+    <br>
+    <figure class="image is-4by1">
+            <img src="~assets/banner_03.jpg">
+          </figure>
+  </div>
+  <footer class="card-footer">
+    <p class="card-footer-item">
+      <span>
+        View on <a href="https://www.youtube.com/user/ActomEntertainment/videos?disable_polymer=1">Youtube</a>
+      </span>
+    </p>
+    <p class="card-footer-item">
+      <span>
+        share on <a href="https://www.facebook.com/adbctv">Facebook</a>
+      </span>
+    </p>
+  </footer>
+</div>
 
 </section>
 </template>
