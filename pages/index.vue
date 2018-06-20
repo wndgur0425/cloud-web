@@ -17,4 +17,3 @@
      </article> 
    </article>
  </template> 
-

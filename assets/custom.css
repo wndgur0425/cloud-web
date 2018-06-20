@@ -1,95 +1,95 @@
 html {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-template {
-    background: linear-gradient(-135deg, #E4A972, #9941D8) fixed;
-  margin: 30px 50px;
-  line-height: 1.4;
-}
-p{
-    font-family: 'Teko', sans-serif;
-}
-p1{
-    font-family: 'Teko', sans-serif;
-    font-size: 1.5rem;
-    color:white;
-}
-p3{
-    font-family: 'Teko', 'Jua', sans-serif;
-    font-size: 1.5rem;
-}
-h1{ 
-    font-family: 'Teko', sans-serif;
-    font-size: 5rem;
-}
-h2{
-    font-family: 'Teko', sans-serif;
-    font-size: 2rem;
-}
-h3{
-    font-family: 'Teko', sans-serif;
-    font-size: 1.5rem;
-}
-article{
-    background-image: url('#');
-}
-.navbar-item{
-    font-family: 'Jua', sans-serif;
-    color: #363636;
-}
-.message-header{
-    font-family: 'Jua', sans-serif;
-    color: white;
-    font-size: 1rem;
-}
-
-.message-body{
-    background-color: black;
-    font-family: 'Jua', sans-serif;
-    color: white;
-    font-size: 1rem;
-}
-
-.pro-container {
-    display: grid;
-    grid-template-areas:
-      'box-photo showcase box-block'
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
   }
-
-  .showcase {
-    grid-area: showcase;
-    min-height: 400px;
-    max-width: 60%;
-    height: auto;
-    background-size: auto;
-    background-position: center;
-    padding: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
+  template {
+      background: linear-gradient(-135deg, #E4A972, #9941D8) fixed;
+    margin: 30px 50px;
+    line-height: 1.4;
   }
-  .box-photo {
-    display: grid;
-    max-width: 60%;
+  p{
+      font-family: 'Teko', sans-serif;
   }
-  .box-block {
-    display: grid;
+  p1{
+      font-family: 'Teko', sans-serif;
+      font-size: 1.5rem;
+      color:white;
   }
-
-  .footer{
-      font-weight: 500;
-      padding: 1rem 1rem 1rem;
-      position: relative;
+  p3{
+      font-family: 'Teko', 'Jua', sans-serif;
+      font-size: 1.5rem;
   }
-  .pic-01{
-      background-color: rgb(209, 206, 206);
+  h1{ 
+      font-family: 'Teko', sans-serif;
+      font-size: 5rem;
   }
-  .pic-02{
-      background-color: white;
-      background-image: url("~assets/profile_04.jpg");
+  h2{
+      font-family: 'Teko', sans-serif;
+      font-size: 2rem;
   }
-  .pic-03{
-      background-image: url("~assets/banner.jpg");
-}
+  h3{
+      font-family: 'Teko', sans-serif;
+      font-size: 1.5rem;
+  }
+  article{
+      background-image: url('#');
+  }
+  .navbar-item{
+      font-family: 'Jua', sans-serif;
+      color: #363636;
+  }
+  .message-header{
+      font-family: 'Jua', sans-serif;
+      color: white;
+      font-size: 1rem;
+  }
+  
+  .message-body{
+      background-color: black;
+      font-family: 'Jua', sans-serif;
+      color: white;
+      font-size: 1rem;
+  }
+  
+  .pro-container {
+      display: grid;
+      grid-template-areas:
+        'box-photo showcase box-block'
+    }
+  
+    .showcase {
+      grid-area: showcase;
+      min-height: 400px;
+      max-width: 60%;
+      height: auto;
+      background-size: auto;
+      background-position: center;
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+    }
+    .box-photo {
+      display: grid;
+      max-width: 60%;
+    }
+    .box-block {
+      display: grid;
+    }
+  
+    .footer{
+        font-weight: 500;
+        padding: 1rem 1rem 1rem;
+        position: relative;
+    }
+    .pic-01{
+        background-color: rgb(209, 206, 206);
+    }
+    .pic-02{
+        background-color: white;
+        background-image: url("~assets/profile_04.jpg");
+    }
+    .pic-03{
+        background-image: url("~assets/banner.jpg");
+  }

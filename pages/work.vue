@@ -85,6 +85,7 @@
 </template>
 
 <script>
+import Chart from '~/plugins/Chart';
 export default {
   methods: {
     video: function(id) {
@@ -96,15 +97,9 @@ export default {
           break;
       }
     }
-  }
-};
-</script>
-
-<script>
-import Chart from '~/plugins/Chart';
-    export default {
-        mounted() {
+  },
+  mounted() {
             if (process.client) { Chart('chartArea'); }
         }
-    };
+};
 </script>
