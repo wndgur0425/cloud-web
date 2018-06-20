@@ -27,8 +27,8 @@
           </figure>
         </article>
 
-        <article class="tile is-child notification">
-          <p class="title">그림 수요량</p>
+        <article class="tile is-child notification is-dark">
+          <p class="title">Picture Demand</p>
                 <div id="chartArea"></div>
         </article>
 
